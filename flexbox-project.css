@@ -22,16 +22,21 @@ body {
   margin: 0;
 }
 
+#alerts {
+  background-color: #CF513D;
+}
 
+@media screen and (max-width: 730px) {
+  /* Hide the header search input field. */
+  #search {
+    display: none;
+  }
 
-
-
-
-
-
-
-
-
+  /* Hide the "Boards" text, but leave the boards icon. */
+  .boards__container p {
+    visibility: hidden;
+  }
+}
 
 
 
